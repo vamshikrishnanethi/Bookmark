@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bookmark Application</title>
+</head>
+<body>
+	<h1 style="color:green">Bookmark</h1>
+
+	<form method="POST">{% csrf_token %}
+		{{ form }}
+		<input type="submit" value="Save">
+	</form>
+</body>
+</html>

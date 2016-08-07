@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bookmark Application</title>
+</head>
+<body>
+	<h1 style="color:green">Bookmarks</h1>
+
+	{% for bookmarks in bookmark %}
+	<p><h3>{{ bookmarks.name }} - {{ bookmarks.link }}</h3></p>
+	{% endfor %}
+
+</body>
+</html>
